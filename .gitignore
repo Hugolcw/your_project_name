@@ -17,3 +17,30 @@ hello_main
 # 编译目录
 build/
 bin/
+# 忽略编译生成的可执行文件
+hello_main
+command_analyzer
+path_finder
+reachability
+red_armor_detector
+rune_detector
+create_test_images
+test_opencv
+test_map
+
+# 忽略其他常见的编译产物
+*.o
+*.out
+*.exe
+*.a
+*.so
+*.dll
+
+# 编辑器临时文件
+*~
+.*.swp
+.*.swo
+
+# 编译目录
+build/
+bin/
