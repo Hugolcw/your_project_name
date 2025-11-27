@@ -5,13 +5,13 @@ echo ""
 
 echo "1. 测试指令分析器 (任务3)..."
 cd task3_commands
-./command_analyzer commands.log
+../build/command_analyzer commands.log
 cd ..
 
 echo ""
 echo "2. 测试路径搜索 (任务4)..."
 cd task4_navigation
-./path_finder map.txt 0 0 2 0
+../build/path_finder map.txt 0 0 2 0
 cd ..
 
 echo ""
